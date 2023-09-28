@@ -1,12 +1,15 @@
 import './App.css';
-
+import Navbar from './components';
+import About from './pages/about';
+import Member from './pages/member';
 function App() {
   return (
     <div className="App">
-     <Home />
+      <Navbar />
+      <About />
+      <Member />
     </div>
   );
 }
 
 export default App;
-        
