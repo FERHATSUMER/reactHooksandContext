@@ -27,6 +27,7 @@
     list-style: none;
 }
 .navbar-ul li{
+    text-decoration:none ;
     color: honeydew;
     box-shadow: 0 0 5px 0 rgba(0,0,0,0.5);
     border: 2px solid green;
