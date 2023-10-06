@@ -20,7 +20,7 @@ const Member = () => {
         return (
           <div key={i.id}>
             <h3>
-              <Link to={`/about${i.email }`}>
+              <Link to={`/about/${i.email }`}>
               {i.name}
               </Link>
             </h3>
