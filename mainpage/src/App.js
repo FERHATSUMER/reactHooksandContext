@@ -4,6 +4,7 @@ import Blog from "./pages/blog";
 import Member from "./pages/member";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Project from "./pages/project";
+import { MemberProvider } from "./components/membercontext/MemberContext";
 import About from "./pages/about";
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
+        {/* <MemberProvider>
+          <Member />
+        </MemberProvider> */}
         <Routes>
           <Route path="/about" element={<About />} />
           <Route path="/member" element={<Member />} />
