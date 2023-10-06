@@ -1,15 +1,9 @@
-import React, { useEffect } from "react";
+import React from 'react'
 
-const About = ({ match }) => {
-  useEffect(() => {
-    console.log(match);
-  }, []);
-
+export default function About() {
   return (
     <div>
-      <h2>{match.params.email}</h2>
+      <h1>About Page</h1>
     </div>
-  );
-};
-
-export default About;
+  )
+}

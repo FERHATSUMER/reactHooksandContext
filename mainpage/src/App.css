@@ -2,3 +2,11 @@ body{
     margin: 0;
     padding: 0;
 }
+
+.data-map{
+    display: flex;
+    flex-direction: column;
+    /* margin-left: 140px; */
+    gap: 27px;
+    align-items: center;
+}
